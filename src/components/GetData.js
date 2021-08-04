@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-
+import Plotter from './Plotter';
 
 const API_LINK = (
     'https://api.coronavirus.data.gov.uk/v1/data?' +
@@ -62,6 +62,8 @@ export class GetData extends Component {
         window.state = this.state
         return (
             <div>
+                <h4>Plotter</h4>
+                <Plotter inputData = {this.state.covidData}/>
                 <h4>Data Collected from the API</h4>
                 <table>
                     <tr>

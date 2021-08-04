@@ -12,7 +12,8 @@ const API_LINK = (
 
 const testData = {
     x: [1,2,3,4,5,6,7],
-    y: [1,2,3,4,5,6,7]
+    y: [5,3,6,2,6,6,8],
+    labels: "this,is,a,label".split(',')
 }
 
 
@@ -20,8 +21,7 @@ const testData = {
 const MainApp = () => {
     return (
         <div>
-            <h1>Covid Data Visualisation</h1>
-            <Plotter data = {testData}/>
+            <h1>UK Covid Data Visualisation</h1>
             <GetData apiLink = {API_LINK}/>
         </div>
     )
