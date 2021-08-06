@@ -1,7 +1,35 @@
 th {
-    padding: 1rem;
+    padding: 1em;
+font-size: 10px;
 }
+
+table {
+    padding: auto;
+    margin: auto;
+}
+
+.covidTagP {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    font-size: 20px;
+    text-align: left;
+}
+
 
 .plot {
     background-color: white;
+    width: 80%;
+    margin: auto;
+}
+button {
+    width: 100px;
+    height: 50px;
+}
+
+
+ul {
+    font-size: 15px;
+    margin-right: 6rem;
+    margin-left: 8rem;
+    text-align: left;
 }
